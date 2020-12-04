@@ -244,7 +244,7 @@ const reset = () => {
 
 const panelSelection = () => {
 
-    window.location.replace("intro_tateti.html");
+    window.location.replace("index.html");
 
 }
 

@@ -1,7 +1,7 @@
 let charactersSelected = 0;
 let iconFirstPlayer = "";
 let iconSecondPlayer = "";
-let nameCharacter = ["Spiderman", "Magneto", "Hulk", "Captain America", "Wolverine", "Storm"];
+let nameCharacter = ["Spiderman", "Magneto", "Chun-Li", "Ken", "Wolverine", "Storm"];
 
 
 

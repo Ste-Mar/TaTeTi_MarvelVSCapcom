@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="intro_tateti.css" />
+		<link rel="shortcut icon" href="img/Marvel.jpg" />
+
+		<script src="intro_tateti.js"></script>
+		<script
+			src="https://kit.fontawesome.com/4408e71892.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body class="wallpaper">
+		<div class="container-fluid">
+			<div class="row title justify-content-center">
+				<h1>Marvel vs Capcom</h1>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-2-xs mt-5 selection">
+					<h1>Select two characters</h1>
+				</div>
+			</div>
+			<div class="row justify-content-center mt-2">
+				<div class="col-2-xs">
+					<table>
+						<tr>
+							<td>
+								<input
+									type="image"
+									src="img/spiderman.gif"
+									class="btn btn-primary btn-xl"
+									onclick="selectIcon(1)"
+									id="1"
+								/>
+							</td>
+							<td>
+								<input
+									type="image"
+									src="img/Magneto.gif"
+									class="btn btn-primary btn-xl"
+									onclick="selectIcon(2)"
+									id="2"
+								/>
+							</td>
+							<td>
+								<input
+									type="image"
+									src="img/hulk.gif"
+									class="btn btn-primary btn-xl"
+									onclick="selectIcon(3)"
+									id="3"
+								/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input
+									type="image"
+									src="img/Captain.gif"
+									class="btn btn-primary btn-xl"
+									onclick="selectIcon(4)"
+									id="4"
+								/>
+							</td>
+							<td>
+								<input
+									type="image"
+									src="img/wolverine.gif"
+									class="btn btn-primary btn-xl"
+									onclick="selectIcon(5)"
+									id="5"
+								/>
+							</td>
+							<td>
+								<input
+									type="image"
+									src="img/Tormenta.gif"
+									class="btn btn-primary btn-xl"
+									onclick="selectIcon(6)"
+									id="6"
+								/>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-2-xs">
+					<a
+						target="_self"
+						class="btn btn-dark btn-xl"
+						id="start"
+					>
+						🔥 Start Game 🔥
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<audio src="audio/select.mp3" controls unmuted autoplay>
+				Your browser does not support the HTML5 Audio element.
+			</audio>
+		</div>
+		<footer class="container mt-4">
+			<div class="row justify-content-around firm text-center">
+				<div class="col-2-xs">
+					<p>Author: Stefano Marcaccio</p>
+				</div>
+				<div class="col-2-xs">
+					<p>
+						<i class="fab fa-github" style="color: white"></i>
+						https://github.com/Ste-Mar
+					</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
